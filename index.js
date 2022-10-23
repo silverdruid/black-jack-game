@@ -37,7 +37,7 @@ function startGame() {
     let secondCard = getRandomNumber()
     let cards = [firstCard, secondCard]
     let sum = firstCard + secondCard
-    e.preventDefault()
+   
     renderGame()
 }
 
@@ -70,7 +70,7 @@ messageEl.textContent = message
 new_card.addEventListener("click", newCard)
 
 function newCard() {
-    e.preventDefault()
+   
     if (isAlive === true && hasBlackJack === false) {
         let card = getRandomNumber()
         sum += card
