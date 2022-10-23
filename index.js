@@ -81,6 +81,6 @@ function newCard() {
     renderGame()
 }
 
-window.onload = () => {
-    document.querySelectorAll("#container-c6e055657cafa4c1df190b1d80d19db9").click()
-}
+// window.onload = () => {
+//     document.querySelectorAll("#container-c6e055657cafa4c1df190b1d80d19db9").click()
+// }
